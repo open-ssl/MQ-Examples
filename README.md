@@ -1,6 +1,11 @@
 # MQ-Examples
 Simple MQ examples
 
+commands:
+
+brew services start rabbitmq
+brew services stop rabbitmq
+brew services restart rabbitmq
 
 - Простые примеры работы со стандартом AMQP для ребят
 - Используем библиотеку pika и простой брокер сообщений
